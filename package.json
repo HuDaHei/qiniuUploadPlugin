@@ -1,7 +1,7 @@
 {
-  "name": "qntest",
+  "name": "yiyeqiniuuploadplugin",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config build/webpack.dev.js"
@@ -14,6 +14,7 @@
     "qiniu": "^7.3.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-dev-server": "^3.10.1",
+    "webpack-node-externals": "^1.7.2"
   }
 }
